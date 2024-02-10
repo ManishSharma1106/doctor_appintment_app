@@ -121,3 +121,33 @@ Before we get started, keep in mind:
 [info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
 [info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
 [info] 
+[debug] [2024-01-25T18:52:53.063Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2024-01-25T18:52:54.330Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 401
+[debug] [2024-01-25T18:52:54.331Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest"}
+[debug] [2024-01-25T18:54:30.428Z] ----------------------------------------------------------------------
+[debug] [2024-01-25T18:54:30.446Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-01-25T18:54:30.448Z] CLI Version:   13.1.0
+[debug] [2024-01-25T18:54:30.448Z] Platform:      win32
+[debug] [2024-01-25T18:54:30.456Z] Node Version:  v20.11.0
+[debug] [2024-01-25T18:54:30.457Z] Time:          Fri Jan 26 2024 00:24:30 GMT+0530 (India Standard Time)
+[debug] [2024-01-25T18:54:30.457Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-01-25T18:54:30.659Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-01-25T18:54:30.660Z] > authorizing via signed-in user (maneesh.sharma3441@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\Angular Project\Doctor_Appointment\doctor_appintment_app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[error] 
+[error] Error: Must select at least one feature. Use SPACEBAR to select features, or specify a feature by running firebase init [feature_name]
